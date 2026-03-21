@@ -1,10 +1,11 @@
 import React from 'react';
+import { Layers, Bed, Building2 } from 'lucide-react';
 
 const ProductPage = () => {
   const categories = [
-    { title: "Premium Fabrics", desc: "Cotton, Sateen, and Percale rolls for industrial use.", icon: "🧵" },
-    { title: "Designer Bedsheets", desc: "Bulk sets in King, Queen, and Single sizes.", icon: "🛏️" },
-    { title: "Hospitality Linen", desc: "High-thread count towels, duvets, and covers.", icon: "🏨" }
+    { title: "Premium Fabrics", desc: "Cotton, Sateen, and Percale rolls for industrial use.", icon: <Layers size={40} /> },
+    { title: "Designer Bedsheets", desc: "Bulk sets in King, Queen, and Single sizes.", icon: <Bed size={40} /> },
+    { title: "Hospitality Linen", desc: "High-thread count towels, duvets, and covers.", icon: <Building2 size={40} /> }
   ];
 
   return (
@@ -17,7 +18,7 @@ const ProductPage = () => {
         <div className="grid md:grid-cols-3 gap-8 mb-20">
           {categories.map((cat, i) => (
             <div key={i} className="p-10 border-2 border-slate-100 rounded-3xl hover:border-blue-900 transition-all group cursor-pointer shadow-sm hover:shadow-xl">
-              <div className="text-4xl mb-6 group-hover:scale-110 transition-transform">{cat.icon}</div>
+              <div className="mb-6 group-hover:scale-110 transition-transform text-blue-600">{cat.icon}</div>
               <h3 className="text-2xl font-black mb-4">{cat.title}</h3>
               <p className="text-gray-500 text-sm leading-relaxed mb-6">{cat.desc}</p>
               <button className="text-blue-900 font-black text-xs uppercase tracking-widest border-b-2 border-blue-900 pb-1">Explore Range</button>

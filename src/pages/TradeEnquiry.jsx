@@ -1,4 +1,5 @@
 import React from 'react';
+import { MapPin, Mail, Phone } from 'lucide-react';
 
 const TradeEnquiry = () => {
   return (
@@ -11,9 +12,9 @@ const TradeEnquiry = () => {
             Direct manufacturers from Kolkata. We handle export and domestic bulk orders for hospitality, retail, and institutional sectors.
           </p>
           <div className="space-y-4 border-l-2 border-blue-500 pl-6 text-sm font-bold tracking-widest uppercase">
-             <p>📍 Kolkata Hub (West Bengal)</p>
-             <p>✉️ exports@parekhlinen.com</p>
-             <p>📞 +91-XXXX-XXXXXX</p>
+             <div className="flex items-center gap-3"><MapPin size={20} className="text-blue-500" /> Kolkata Hub (West Bengal)</div>
+             <div className="flex items-center gap-3"><Mail size={20} className="text-blue-500" /> exports@parekhlinen.com</div>
+             <div className="flex items-center gap-3"><Phone size={20} className="text-blue-500" /> +91-XXXX-XXXXXX</div>
           </div>
         </div>
 

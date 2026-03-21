@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { Zap } from 'lucide-react';
 
 const Home = () => {
   return (
@@ -95,7 +96,7 @@ const Home = () => {
               </div>
               <Link to="/products" className="mt-10 font-black text-xs uppercase tracking-[0.2em] inline-block border-b-2 border-slate-900 pb-1 w-fit group-hover:border-blue-600">Learn More</Link>
             </div>
-            <div className="absolute -right-20 -bottom-20 text-[12rem] font-black text-slate-100 group-hover:text-blue-50 transition opacity-50 z-0">🧵</div>
+            <div className="absolute -right-20 -bottom-20 text-slate-100 group-hover:text-blue-50 transition opacity-50 z-0"><Zap size={200} strokeWidth={1} /></div>
           </div>
 
           {/* Card 2 */}

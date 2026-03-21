@@ -15,7 +15,7 @@ const About = () => {
         </div>
         <div className="md:w-1/2 relative bg-blue-900">
           <img 
-            src="https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?auto=format&fit=crop&q=80" 
+            src="https://img.freepik.com/premium-photo/closeup-woven-textile-fabric_99233-108167.jpg?semt=ais_hybrid&w=740&q=80" 
             className="w-full h-full object-cover mix-blend-multiply opacity-70" 
             alt="Fabric Close-up" 
           />
@@ -37,7 +37,7 @@ const About = () => {
                 <img src={`https://via.placeholder.com/600x800`} className="w-full h-full object-cover transition duration-700 group-hover:scale-105" />
               </div>
               <div className="absolute -bottom-10 left-10 right-10 bg-white p-8 rounded-3xl shadow-2xl border border-gray-100">
-                <h4 className="text-2xl font-black">Mr. Rajesh Parekh</h4>
+                <h4 className="text-2xl font-black">Mr. HC Parekh</h4>
                 <p className="text-blue-600 font-bold uppercase text-sm">Managing Director</p>
               </div>
             </div>

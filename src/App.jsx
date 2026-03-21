@@ -19,7 +19,8 @@ import Circulars from './pages/Circulars';
 import Reviews from './pages/Reviews';
 import Appointment from './pages/Appointment';
 import Associates from './pages/Associates';
-
+import Tenders from './pages/Tenders';
+import MediaEvents from './pages/MediaEvents';
 function App() {
   return (
     <Router>
@@ -43,7 +44,7 @@ function App() {
             <Route path="/trade-enquiry" element={<TradeEnquiry />} />
             <Route path="/quotation" element={<EQuotation />} />
             <Route path="/e-auction" element={<Auction />} />
-            <Route path="/tenders" element={<TradeEnquiry />} /> {/* Shared logic with Auction */}
+            <Route path="/tenders" element={<Tenders />} /> {/* Shared logic with Auction */}
             
             {/* 4. Corporate & Careers */}
             <Route path="/careers" element={<Career />} />
@@ -54,6 +55,7 @@ function App() {
             <Route path="/reviews" element={<Reviews />} />
             <Route path="/appointment" element={<Appointment />} />
             <Route path="/associates" element={<Associates />} />
+            <Route path="/media" element={<MediaEvents />} />
           </Routes>
         </main>
 

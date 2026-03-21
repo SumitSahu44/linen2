@@ -18,8 +18,8 @@ const Management = () => {
         <div className="grid md:grid-cols-3 gap-12">
           {leaders.map((person, i) => (
             <div key={i} className="group cursor-pointer">
-              <div className="h-[400px] bg-slate-100 rounded-[3rem] overflow-hidden mb-6 relative">
-                <img src="https://via.placeholder.com/500x700" alt={person.name} className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition duration-500" />
+              <div className="h-[400px] bg-slate-100 rounded-[3rem]  overflow-hidden mb-6 relative">
+                <img src="https://media.istockphoto.com/id/1216426542/photo/portrait-of-happy-man-at-white-background-stock-photo.webp?a=1&b=1&s=612x612&w=0&k=20&c=EgxUJNnRMUmyCuVLrnMWcQMPq9EGqdjHNZEBGgAa3hg=" alt={person.name} className="w-full h-full object-cover object-top grayscale group-hover:grayscale-0 transition duration-500" />
                 <div className="absolute inset-0 bg-blue-900/10 group-hover:bg-transparent transition"></div>
               </div>
               <h3 className="text-2xl font-black text-slate-900">{person.name}</h3>
