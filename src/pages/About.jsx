@@ -34,7 +34,7 @@ const About = () => {
           {[1, 2].map((m) => (
             <div key={m} className="relative group">
               <div className="h-[500px] bg-gray-200 rounded-[4rem] overflow-hidden">
-                <img src={`https://via.placeholder.com/600x800`} className="w-full h-full object-cover transition duration-700 group-hover:scale-105" />
+                <img src={`https://media.istockphoto.com/id/1489671297/photo/portrait-satisfied-businessman-showing-to-camera-thumbs-up.webp?a=1&b=1&s=612x612&w=0&k=20&c=KaBPwuabdbqPaz7yDt7FalfbilBykUiXb_ZPHpuW1Lo=`} className="w-full h-full object-cover transition duration-700 group-hover:scale-105" />
               </div>
               <div className="absolute -bottom-10 left-10 right-10 bg-white p-8 rounded-3xl shadow-2xl border border-gray-100">
                 <h4 className="text-2xl font-black">Mr. HC Parekh</h4>

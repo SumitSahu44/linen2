@@ -21,9 +21,21 @@ const Navbar = () => {
     { name: "Home", path: "/" },
     { name: "About Us", path: "/about" },
     { name: "Products", path: "/products" },
+    { name: "Contact", path: "/contact" },
   ];
 
   const sections = [
+     {
+      title: "Company Info",
+      icon: <FileText size={16} />,
+      links: [
+        { name: "Our Management", path: "/management" },
+        { name: "Career Page", path: "/careers" },
+        { name: "Circular", path: "/circulars" },
+        { name: "Our Textile Associates", path: "/textile-map" },
+        { name: "Blog", path: "/blog" },
+      ]
+    },
     {
       title: "B2B Operations",
       icon: <Briefcase size={16} />,
@@ -34,22 +46,13 @@ const Navbar = () => {
         { name: "Trade Enquiry", path: "/trade-enquiry" },
       ]
     },
-    {
-      title: "Company Info",
-      icon: <FileText size={16} />,
-      links: [
-        { name: "Our Management", path: "/management" },
-        { name: "Career Page", path: "/careers" },
-        { name: "Circular", path: "/circulars" },
-        { name: "Blog", path: "/blog" },
-      ]
-    },
+   
     {
       title: "Engagement",
       icon: <Users size={16} />,
       links: [
         { name: "Customer Review", path: "/reviews" },
-        { name: "Factory Visit", path: "/appointment" },
+        { name: "Book Appointment", path: "/appointment" },
         { name: "Media Gallery", path: "/media" },
         { name: "Textile Associates", path: "/associates" },
       ]

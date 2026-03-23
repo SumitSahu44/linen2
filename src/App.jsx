@@ -21,6 +21,9 @@ import Appointment from './pages/Appointment';
 import Associates from './pages/Associates';
 import Tenders from './pages/Tenders';
 import MediaEvents from './pages/MediaEvents';
+import TextileMap from './pages/TextileMap';
+import Blog from './pages/Blog'; // Assuming you have a Blog page
+import Contact from './pages/ContactUs'; // Assuming you have a Contact page
 function App() {
   return (
     <Router>
@@ -45,12 +48,13 @@ function App() {
             <Route path="/quotation" element={<EQuotation />} />
             <Route path="/e-auction" element={<Auction />} />
             <Route path="/tenders" element={<Tenders />} /> {/* Shared logic with Auction */}
-            
+            <Route path="/textile-map" element={<TextileMap />} />
             {/* 4. Corporate & Careers */}
             <Route path="/careers" element={<Career />} />
             <Route path="/circulars" element={<Circulars />} />
-            <Route path="/blog" element={<Circulars />} /> {/* Shared logic with Circulars */}
-            
+            <Route path="/blog" element={<Blog />} /> {/* Shared logic with Circulars */}
+            <Route path="/contact" element={<Contact />} /> {/* Contact page route */}
+
             {/* 5. Customer & Utility */}
             <Route path="/reviews" element={<Reviews />} />
             <Route path="/appointment" element={<Appointment />} />

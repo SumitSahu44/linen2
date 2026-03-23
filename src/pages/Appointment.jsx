@@ -6,7 +6,7 @@ const Appointment = () => {
       <div className="max-w-3xl mx-auto bg-white p-10 rounded-3xl shadow-xl border border-gray-100">
         <div className="text-center mb-10">
           <span className="text-blue-600 font-bold tracking-widest uppercase text-xs">Guest Relations</span>
-          <h2 className="text-3xl font-black text-gray-900 mt-2">Schedule a Factory Visit</h2>
+          <h2 className="text-3xl font-black text-gray-900 mt-2">Schedule a Appointment Visit</h2>
         </div>
 
         <form className="space-y-6">
