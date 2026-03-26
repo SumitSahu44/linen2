@@ -18,13 +18,13 @@ const Circulars = () => {
           {posts.map((post, i) => (
             <div key={i} className="group cursor-pointer">
               <div className="bg-slate-100 h-64 rounded-3xl mb-6 overflow-hidden relative">
-                <div className="absolute top-4 left-4 bg-blue-600 text-white text-[10px] px-3 py-1 font-black uppercase rounded-full">{post.tag}</div>
+                <div className="absolute top-4 left-4 bg-brand text-white text-[10px] px-3 py-1 font-black uppercase rounded-full">{post.tag}</div>
                 <img src={`https://images.unsplash.com/photo-1580250569064-b2ac463aa820?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8TmV3JTIwRXhwb3J0JTIwSW5jZW50aXZlcyUyMGZvciUyMFdlc3QlMjBCZW5nYWwlMjBUZXh0aWxlJTIwSHVifGVufDB8fDB8fHww`} className="w-full h-full object-cover group-hover:scale-105 transition duration-500" alt="Blog" />
               </div>
               <p className="text-gray-400 text-xs font-bold mb-2 uppercase">{post.date}</p>
-              <h3 className="text-2xl font-black text-slate-900 leading-tight mb-4 group-hover:text-blue-600 transition">{post.title}</h3>
+              <h3 className="text-2xl font-black text-slate-900 leading-tight mb-4 group-hover:text-brand transition">{post.title}</h3>
               <p className="text-gray-500 text-sm leading-relaxed mb-6">{post.desc}</p>
-              <span className="text-slate-900 font-black text-xs uppercase border-b-2 border-slate-900 pb-1 hover:text-blue-600 hover:border-blue-600 transition-all">Read Article →</span>
+              <span className="text-slate-900 font-black text-xs uppercase border-b-2 border-slate-900 pb-1 hover:text-brand hover:border-brand transition-all">Read Article →</span>
             </div>
           ))}
         </div>

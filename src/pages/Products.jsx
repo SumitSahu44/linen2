@@ -16,7 +16,7 @@ const Products = () => {
     <div className="py-12 bg-gray-50 min-h-screen">
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-center mb-12">
-          <h1 className="text-4xl font-black text-blue-900 uppercase tracking-tight">Our Collection</h1>
+          <h1 className="text-4xl font-black text-brand-dark uppercase tracking-tight">Our Collection</h1>
           
           {/* Filter Tabs */}
           <div className="flex gap-2 mt-6 md:mt-0 bg-white p-1 rounded-full shadow-sm border">
@@ -24,7 +24,7 @@ const Products = () => {
               <button 
                 key={cat}
                 onClick={() => setFilter(cat)}
-                className={`px-6 py-2 rounded-full text-sm font-bold transition-all ${filter === cat ? 'bg-blue-900 text-white shadow-md' : 'text-gray-500 hover:bg-gray-100'}`}
+                className={`px-6 py-2 rounded-full text-sm font-bold transition-all ${filter === cat ? 'bg-brand-dark text-white shadow-md' : 'text-gray-500 hover:bg-gray-100'}`}
               >
                 {cat}
               </button>
@@ -37,15 +37,15 @@ const Products = () => {
             <div key={product.id} className="group bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all border border-gray-100">
               <div className="relative h-64 overflow-hidden">
                 <img src={product.img} alt={product.name} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
-                <div className="absolute top-4 left-4 bg-blue-900 text-white text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-widest">
+                <div className="absolute top-4 left-4 bg-brand-dark text-white text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-widest">
                   {product.gsm}
                 </div>
               </div>
               <div className="p-6">
-                <p className="text-blue-600 text-xs font-bold uppercase mb-2">{product.category}</p>
+                 <p className="text-brand text-xs font-bold uppercase mb-2">{product.category}</p>
                 <h3 className="text-xl font-bold text-gray-900 mb-4">{product.name}</h3>
                 <div className="flex gap-3">
-                  <button className="flex-1 bg-blue-900 text-white py-2 rounded font-bold text-sm hover:bg-blue-800 transition">Bulk Inquiry</button>
+                   <button className="flex-1 bg-brand-dark text-white py-2 rounded font-bold text-sm hover:bg-black transition">Bulk Inquiry</button>
                   <button className="px-4 py-2 border border-gray-200 rounded hover:bg-gray-50">Details</button>
                 </div>
               </div>

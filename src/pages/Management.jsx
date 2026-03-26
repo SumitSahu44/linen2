@@ -12,7 +12,7 @@ const Management = () => {
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <h1 className="text-6xl font-black text-slate-900 tracking-tighter uppercase">The Visionaries</h1>
-          <div className="w-24 h-2 bg-blue-600 mx-auto mt-4 rounded-full"></div>
+          <div className="w-24 h-2 bg-brand mx-auto mt-4 rounded-full"></div>
         </div>
 
         <div className="grid md:grid-cols-3 gap-12">
@@ -20,10 +20,10 @@ const Management = () => {
             <div key={i} className="group cursor-pointer">
               <div className="h-[400px] bg-slate-100 rounded-[3rem]  overflow-hidden mb-6 relative">
                 <img src="https://media.istockphoto.com/id/1216426542/photo/portrait-of-happy-man-at-white-background-stock-photo.webp?a=1&b=1&s=612x612&w=0&k=20&c=EgxUJNnRMUmyCuVLrnMWcQMPq9EGqdjHNZEBGgAa3hg=" alt={person.name} className="w-full h-full object-cover object-top grayscale group-hover:grayscale-0 transition duration-500" />
-                <div className="absolute inset-0 bg-blue-900/10 group-hover:bg-transparent transition"></div>
+                <div className="absolute inset-0 bg-brand-dark/10 group-hover:bg-transparent transition"></div>
               </div>
               <h3 className="text-2xl font-black text-slate-900">{person.name}</h3>
-              <p className="text-blue-600 font-bold text-xs uppercase tracking-widest mb-4">{person.role}</p>
+              <p className="text-brand font-bold text-xs uppercase tracking-widest mb-4">{person.role}</p>
               <p className="text-gray-500 text-sm leading-relaxed">{person.bio}</p>
             </div>
           ))}

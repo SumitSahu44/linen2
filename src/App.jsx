@@ -18,17 +18,16 @@ import Career from './pages/Career';
 import Circulars from './pages/Circulars';
 import Reviews from './pages/Reviews';
 import Appointment from './pages/Appointment';
-import Associates from './pages/Associates';
 import Tenders from './pages/Tenders';
 import MediaEvents from './pages/MediaEvents';
-import TextileMap from './pages/TextileMap';
+import TextileMap from './pages/Associates';
 import Blog from './pages/Blog'; // Assuming you have a Blog page
 import Contact from './pages/ContactUs'; // Assuming you have a Contact page
 function App() {
   return (
     <Router>
       <div className="flex flex-col min-h-screen font-sans antialiased bg-white text-slate-900">
-        
+
         {/* Navbar: Isme humne Mega Menu setup kiya hai */}
         <Navbar />
 
@@ -39,10 +38,10 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/management" element={<Management />} />
-            
+
             {/* 2. Products & Media */}
             <Route path="/products" element={<ProductPage />} />
-             
+
             {/* 3. B2B Operations */}
             <Route path="/trade-enquiry" element={<TradeEnquiry />} />
             <Route path="/quotation" element={<EQuotation />} />
@@ -58,7 +57,7 @@ function App() {
             {/* 5. Customer & Utility */}
             <Route path="/reviews" element={<Reviews />} />
             <Route path="/appointment" element={<Appointment />} />
-            <Route path="/associates" element={<Associates />} />
+
             <Route path="/media" element={<MediaEvents />} />
           </Routes>
         </main>

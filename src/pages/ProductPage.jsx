@@ -12,16 +12,16 @@ const ProductPage = () => {
     <div className="pt-24 pb-20 bg-white">
       <div className="max-w-7xl mx-auto px-6">
         <h1 className="text-5xl font-black text-slate-900 mb-4 uppercase">Products & Variants</h1>
-        <p className="text-blue-600 font-bold mb-12 italic tracking-widest text-sm">Manufacturers & Suppliers • Kolkata (WB)</p>
+        <p className="text-brand font-bold mb-12 italic tracking-widest text-sm">Manufacturers & Suppliers • Kolkata (WB)</p>
 
         {/* Category Selection Grid */}
         <div className="grid md:grid-cols-3 gap-8 mb-20">
           {categories.map((cat, i) => (
-            <div key={i} className="p-10 border-2 border-slate-100 rounded-3xl hover:border-blue-900 transition-all group cursor-pointer shadow-sm hover:shadow-xl">
-              <div className="mb-6 group-hover:scale-110 transition-transform text-blue-600">{cat.icon}</div>
+            <div key={i} className="p-10 border-2 border-slate-100 rounded-3xl hover:border-brand-dark transition-all group cursor-pointer shadow-sm hover:shadow-xl">
+              <div className="mb-6 group-hover:scale-110 transition-transform text-brand">{cat.icon}</div>
               <h3 className="text-2xl font-black mb-4">{cat.title}</h3>
               <p className="text-gray-500 text-sm leading-relaxed mb-6">{cat.desc}</p>
-              <button className="text-blue-900 font-black text-xs uppercase tracking-widest border-b-2 border-blue-900 pb-1">Explore Range</button>
+              <button className="text-brand-dark font-black text-xs uppercase tracking-widest border-b-2 border-brand-dark pb-1">Explore Range</button>
             </div>
           ))}
         </div>

@@ -6,14 +6,14 @@ const About = () => {
       {/* Split Hero */}
       <div className="flex flex-col md:flex-row h-screen">
         <div className="md:w-1/2 p-12 md:p-24 flex flex-col justify-center bg-slate-50">
-          <span className="text-blue-600 font-bold mb-4 tracking-tighter">— SINCE 1995</span>
+          <span className="text-brand font-bold mb-4 tracking-tighter">— SINCE 1995</span>
           <h1 className="text-6xl font-black text-slate-900 mb-6">Crafting <br/> The Fine Thread.</h1>
           <p className="text-xl text-gray-600 leading-relaxed">
             Parekh Linen isn't just a factory; it's a legacy of West Bengal's textile craftsmanship 
             infused with modern German technology. We weave trust into every GSM.
           </p>
         </div>
-        <div className="md:w-1/2 relative bg-blue-900">
+        <div className="md:w-1/2 relative bg-brand-dark">
           <img 
             src="https://img.freepik.com/premium-photo/closeup-woven-textile-fabric_99233-108167.jpg?semt=ais_hybrid&w=740&q=80" 
             className="w-full h-full object-cover mix-blend-multiply opacity-70" 
@@ -38,7 +38,7 @@ const About = () => {
               </div>
               <div className="absolute -bottom-10 left-10 right-10 bg-white p-8 rounded-3xl shadow-2xl border border-gray-100">
                 <h4 className="text-2xl font-black">Mr. HC Parekh</h4>
-                <p className="text-blue-600 font-bold uppercase text-sm">Managing Director</p>
+                <p className="text-brand font-bold uppercase text-sm">Managing Director</p>
               </div>
             </div>
           ))}

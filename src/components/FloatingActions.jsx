@@ -9,7 +9,7 @@ const FloatingActions = () => {
         <Send size={24} className="text-white" />
       </a>
       {/* Live Chat */}
-      <div className="bg-blue-900 w-14 h-14 rounded-full flex items-center justify-center shadow-2xl hover:scale-110 transition cursor-pointer">
+      <div className="bg-brand-dark w-14 h-14 rounded-full flex items-center justify-center shadow-2xl hover:scale-110 transition cursor-pointer">
         <MessageCircle size={24} className="text-white" />
       </div>
     </div>

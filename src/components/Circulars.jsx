@@ -11,7 +11,7 @@ const Circulars = () => {
           {[1, 2, 3].map((i) => (
             <div key={i} className="p-10 border-r border-gray-300 last:border-0 hover:bg-white transition-all cursor-pointer group">
               <p className="text-xs font-bold text-gray-400 mb-4">MARCH 15, 2026</p>
-              <h3 className="text-2xl font-bold mb-6 group-hover:text-blue-700 transition">New GST Norms for Bulk Textile Export</h3>
+              <h3 className="text-2xl font-bold mb-6 group-hover:text-brand transition">New GST Norms for Bulk Textile Export</h3>
               <p className="text-gray-600 text-sm leading-relaxed mb-8">
                 Important update for all our associates regarding the revised tax structure...
               </p>

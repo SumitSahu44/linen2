@@ -10,7 +10,7 @@ const MediaGallery = () => {
 
   return (
     <div className="py-20 max-w-7xl mx-auto px-6">
-      <h2 className="text-4xl font-black text-blue-900 mb-12 border-b-4 border-blue-100 pb-4 inline-block">Media & Insights</h2>
+      <h2 className="text-4xl font-black text-brand-dark mb-12 border-b-4 border-brand/10 pb-4 inline-block">Media & Insights</h2>
       
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         {images.map((img, i) => (
@@ -26,7 +26,7 @@ const MediaGallery = () => {
       <div className="mt-16 bg-slate-900 p-12 rounded-3xl text-center text-white">
         <h3 className="text-2xl font-bold mb-4 italic">"Parekh Linen: Where Tradition Meets Modern Technology"</h3>
         <p className="text-gray-400">Visit our YouTube channel for factory walkthroughs.</p>
-        <button className="mt-6 border border-white px-8 py-2 rounded-full hover:bg-white hover:text-blue-900 transition">Watch Videos</button>
+        <button className="mt-6 border border-white px-8 py-2 rounded-full hover:bg-white hover:text-brand-dark transition">Watch Videos</button>
       </div>
     </div>
   );

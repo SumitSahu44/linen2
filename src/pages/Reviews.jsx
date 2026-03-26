@@ -48,7 +48,7 @@ const Reviews = () => {
                 </span>
               </div>
 
-              <div className="text-blue-500 text-xl mb-4 italic font-black">“</div>
+              <div className="text-brand text-xl mb-4 italic font-black">“</div>
 
               <p className="text-slate-600 mb-8 italic leading-relaxed">
                 "{r.text}"
