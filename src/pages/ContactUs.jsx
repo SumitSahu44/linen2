@@ -10,9 +10,9 @@ const ContactUs = () => {
         <div className="text-center mb-20">
           <span className="text-brand font-bold tracking-[0.3em] uppercase text-xs">Get In Touch</span>
           <h2 className="text-5xl font-black text-gray-900 mt-3 tracking-tighter">Let's Connect</h2>
-          <p className="text-gray-500 mt-4 max-w-2xl mx-auto text-lg font-medium">
-            Humari team aapki queries aur partnerships ke liye hamesha taiyar hai. Neeche diye gaye form ya details se humein sampark karein.
-          </p>
+         <p className="text-gray-500 mt-4 max-w-2xl mx-auto text-lg font-medium">
+  Our team is always ready to assist you with your queries and partnerships. Feel free to contact us using the form or the details provided below.
+</p>
           <div className="w-24 h-2 bg-brand-dark mx-auto mt-6 rounded-full"></div>
         </div>
 
