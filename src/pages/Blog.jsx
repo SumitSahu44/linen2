@@ -58,7 +58,7 @@ const Blogs = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2">
             <div className="relative overflow-hidden">
               <img
-                src="https://plus.unsplash.com/premium_photo-1674747086512-5f73de8f7350?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bGluZW4lMjBmYWJyaWN8ZW58MHx8MHx8fDA%3D"
+                src="https://media.istockphoto.com/id/528908529/photo/colored-cloth.webp?a=1&b=1&s=612x612&w=0&k=20&c=VxBdS90v9gSWUrtRKMVhdz47785_auSF5K1NBWwVGKk="
                 alt="Featured"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
               />
