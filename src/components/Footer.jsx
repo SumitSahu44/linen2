@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { FaLinkedinIn, FaInstagram, FaFacebookF } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer className="bg-slate-900 text-white pt-20 pb-10">
@@ -10,11 +10,21 @@ const Footer = () => {
           <p className="text-gray-400 text-sm leading-relaxed mb-6">
             Pioneering the textile industry in Kolkata. Quality manufacturing for global hospitality and retail brands.
           </p>
-          <div className="flex gap-4">
-            {/* Social Icons Placeholders */}
-            <div className="w-8 h-8 bg-slate-800 rounded-full flex items-center justify-center hover:bg-brand cursor-pointer">FB</div>
-            <div className="w-8 h-8 bg-slate-800 rounded-full flex items-center justify-center hover:bg-brand cursor-pointer">IN</div>
-          </div>
+         <div className="flex gap-4">
+  
+  <a href="#" className="w-8 h-8 bg-slate-800 rounded-full flex items-center justify-center hover:bg-brand cursor-pointer transition-all">
+    <FaFacebookF className="text-white text-sm" />
+  </a>
+
+  <a href="#" className="w-8 h-8 bg-slate-800 rounded-full flex items-center justify-center hover:bg-brand cursor-pointer transition-all">
+    <FaInstagram className="text-white text-sm" />
+  </a>
+
+  <a href="#" className="w-8 h-8 bg-slate-800 rounded-full flex items-center justify-center hover:bg-brand cursor-pointer transition-all">
+    <FaLinkedinIn className="text-white text-sm" />
+  </a>
+
+</div>
         </div>
 
         {/* Quick Links */}
@@ -52,7 +62,7 @@ const Footer = () => {
       </div>
 
       <div className="border-t border-slate-800 mt-16 pt-8 text-center text-gray-500 text-xs">
-        © 2026 PAREKH LINEN. Designed for Global Textile Excellence. All Rights Reserved.
+        © 2026 PAREKH LINEN. All Rights Reserved.
       </div>
     </footer>
   );
